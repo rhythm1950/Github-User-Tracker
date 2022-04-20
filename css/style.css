@@ -22,7 +22,12 @@ body {
     padding: 120px 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     color: #000;
 }
@@ -38,9 +43,9 @@ ul {
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 span {
@@ -155,14 +160,17 @@ span {
     width: 0;
 }
 
+/* Responsive style */
 @media screen and (max-width: 1200px) {
     .container {
         max-width: 990px;
     }
+
     .about-content ul li {
         float: none;
         width: 100%
     }
+
     .section-title {
         width: 80%;
     }
@@ -172,13 +180,16 @@ span {
     .container {
         max-width: 720px;
     }
+
     .about-grid-container {
         grid-template-columns: 1fr;
         grid-gap: 0;
     }
+
     .section-title {
         width: 100%;
     }
+
     .about-content ul li {
         float: left;
         width: 50%

@@ -56,7 +56,6 @@ const getUser = (userName) => {
                 <a href="#"class="repos">Get User Profile</a>
                 <a href="#"class="repos">Progess-Step</a>
             </div>
-            <span class="projectby">Project By <a title="Follow me on github "class="link-kabid"href="https://github.com/19smabtahinoor"target="_blank">S.M.Abtahi Noor</a></span>
         </div>
         `;
       main.innerHTML = output;

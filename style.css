@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&display=swap");
 
 * {
@@ -7,13 +6,13 @@
 }
 
 body {
-  font-family: "Ubuntu", monospace;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0px;
-  background: #ddd;
+  background: rgb(0, 18, 58);
   color: #000000 !important;
   height: 100vh;
   overflow: hidden;
@@ -21,7 +20,7 @@ body {
 
 .user-form {
   width: 100%;
-  max-width: 600px;
+  max-width: 630px;
 }
 
 .search-bar {
@@ -36,13 +35,14 @@ body {
   border: none;
   outline: none;
   font-size: 18px;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #5a5a5a, -20px -20px 60px #4d4d4d;
   margin-bottom: 25px;
 }
+
 .card {
-  max-width: 600px;
+  max-width: 640px;
   display: flex;
-  background: #fff;
+  background: rgb(239, 239, 239);
   border-radius: 13px;
   -webkit-border-radius: 13px;
   -moz-border-radius: 13px;
@@ -52,7 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #373737, -20px -20px 60px #4e4e4e;
 }
 
 .user-avatar {
@@ -72,12 +72,14 @@ body {
   justify-content: center;
   border: 6px solid #ddd;
 }
+
 .user-name {
   font-size: 26px;
   display: inline-block;
   text-align: center;
   width: 100%;
 }
+
 .user_login {
   font-size: 16px;
   color: #827e7e;
@@ -90,6 +92,7 @@ body {
   text-align: center;
   margin-bottom: 22px;
 }
+
 .user-loaction {
   color: #827e7e;
   margin-top: -30px;
@@ -103,6 +106,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+
 .list-of-followers-follwing {
   display: flex;
   list-style: none;
@@ -111,24 +115,26 @@ body {
   position: relative;
   top: -23px;
 }
+
 .list-of-followers-follwing li {
   display: flex;
   align-items: center;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin: 15px;
 }
+
 .list-of-followers-follwing li b {
   padding-left: 5px;
-  font-family: "Ubuntu", monospace;
 }
+
 .user-repos-details {
   margin-top: -36px;
 }
+
 .repos {
   padding: 0.25rem 0.5rem;
-  background: rgb(119 113 113 / 24%);
-  color: rgb(114 109 109);
+  background: rgba(5, 0, 63, 0.943);
+  color: rgb(255, 255, 255);
   font-size: 13px;
   text-decoration: none;
   border-radius: 5px;
@@ -149,10 +155,11 @@ body {
   color: rgb(114, 109, 109);
   margin-top: 18px;
 }
+
 .link-kabid {
   text-decoration: none;
   color: white;
-  background: #52a8e9;
+  background: #0687ff;
   padding: 3px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -168,16 +175,20 @@ body {
     align-items: center;
     margin: 18px;
   }
+
   .search-bar {
     max-width: 89%;
     margin-left: 17px;
   }
+
   .user-bio {
     text-align: center;
   }
+
   .user-name {
     text-align: center;
   }
+
   .user-loaction {
     text-align: center;
   }

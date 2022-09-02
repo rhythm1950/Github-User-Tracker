@@ -21,5 +21,5 @@ This is a github user information tracker. I have developed it using HTML, CSS, 
 
 
 ### Website Preview:
-<img src="./assets/img/Techo-Agency.png" alt="Techo Agency">
+<img src="./github-tracker.PNG" alt="GitHub Tracker">
 
